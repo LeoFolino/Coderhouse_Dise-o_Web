@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <h1>Formularios</h1>
+
+    <form">
+        <label for="nombre">Nombre</label> <!-- El valor en for debe coincidir con el id del input // De esta manera se relacionan -->
+        <input type="text" name="nombre" id="nombre">    
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+    </form>
+
+    
+
+
+    <!-- <form> encierra los elementos -->
+    <!-- <input> <select> <texarea> para recopilar datos -->
+    <!-- Envio: Atributo method GET o POST define como se envian los datos al server -->
+    <!-- Destino: Atributo action en <form> indica la URL para procesar datos -->
+    <!-- Interactividad: Botones <input type="submit"> para enviar -->
+
+    <!-- Etiqueta input -->
+
+    <!-- Etiqueta textarea -->
+
+    <!-- Etiqueta select y option -->
+
+    <!-- Boton submit -->
+
+    <!-- Metodo GET
+    Los datos del form se adjuntan a la url como parametros, es visible en la barra de direcciones del navegador, tine limitaciones en la cantidad de datos y 
+    es menos seguro para informacion sensible ya que los datos son visibles en la URL.
+    ---El metodo GET se utiliza para solicitudes de busqueda o donde la info no es sensible
+
+    Metodo POST
+    Los datos del formulario se envian en el cuerpo de la solicitud HTTP, no en la URL. No es visible en la barra de direcciones. Puede manejar
+    cantidades mas grandes de datos, Es mas seguro para la informacion ya que los datos no son visibles en la url 
+    ---El metodo POST se usa para enviar info sensible o mucha informacion -->
+
+</body>
+</html>
+
