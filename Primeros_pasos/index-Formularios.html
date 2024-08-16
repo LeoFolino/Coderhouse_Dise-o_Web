@@ -8,8 +8,9 @@
 <body>
 
     <h1>Formularios</h1>
-
-    <form">
+        <!-- <form> encierra los elementos -->
+    <!-- <input> <select> <texarea> para recopilar datos -->
+    <form method="post">
         <!-- INPUT TYPE TEXT -->
          <h4>DATOS PERSONALES</h4>
          <br>
@@ -38,12 +39,11 @@
         <input type="checkbox" name="tecnologias" id="javascript" value="3">
         <label for="react">React</label>
         <input type="checkbox" name="tecnologias" id="react" value="4">
+        <br>
+        <input type="submit" value="Enviar Pa">
     </form>
 
 
-
-    <!-- <form> encierra los elementos -->
-    <!-- <input> <select> <texarea> para recopilar datos -->
     <!-- Envio: Atributo method GET o POST define como se envian los datos al server -->
     <!-- Destino: Atributo action en <form> indica la URL para procesar datos -->
     <!-- Interactividad: Botones <input type="submit"> para enviar -->
