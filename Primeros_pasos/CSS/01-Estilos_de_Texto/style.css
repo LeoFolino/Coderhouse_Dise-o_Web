@@ -8,15 +8,23 @@ div{
 
 .overline{
     text-decoration: overline;
+    text-decoration-color: red;
 }
 
 .line-through{
     text-decoration: line-through;
+    text-decoration-color: yellowgreen;
 }
 
 .underline{
     text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: aqua;
 }
+
+/* Los valores que puede tomar decoration-style son 
+solid, double, wavy, dotted, dashed
+*/
 
 /*div{
     width: 500px;
