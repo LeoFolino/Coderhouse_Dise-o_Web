@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <h1>Formularios</h1>
+        <!-- <form> encierra los elementos -->
+    <!-- <input> <select> <texarea> para recopilar datos -->
+    <form method="post">        <!-- Envio: Atributo method GET o POST define como se envian los datos al server -->
+        <!-- INPUT TYPE TEXT -->
+         <h4>DATOS PERSONALES</h4>
+         <br>
+        <label for="nombre">Nombre</label> <!-- El valor en for debe coincidir con el id del input // De esta manera se relacionan -->
+        <input type="text" name="nombre" id="nombre">    
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+        <br>
+        <!-- INPUT RADIO BUTTON -->
+         <h4>SITUACION LABORAL</h4>
+         <br> <!-- radio es para seleccion unica -->
+         <label for="empleado">Empleado</label>
+         <input type="radio" name="situacion-laboral" id="empleado">
+         <label for="desempleado">Desempleado</label>
+         <input type="radio" name="situacion-laboral" id="desempleado">
+         <label for="busqueda">En busqueda activa</label>
+         <input type="radio" name="situacion-laboral" id="busqueda">
+         <!-- INPUT TYPE CHECKBOX -->
+        <h4>TECNOLOGIAS QUE MANEJAS</h4>
+        <br> <!-- checkbox es para selecciones multiples -->
+        <label for="html">HTML</label>
+        <input type="checkbox" name="tecnologias" id="html" value="1"> <!-- value es para lo que recopila el backend-->
+        <label for="css">CSS</label>
+        <input type="checkbox" name="tecnologias" id="css" value="2">
+        <label for="javascript">JS</label>
+        <input type="checkbox" name="tecnologias" id="javascript" value="3">
+        <label for="react">React</label>
+        <input type="checkbox" name="tecnologias" id="react" value="4">
+        <br>
+            <!-- TEXTAREA -->
+        <label for="motivo">Motivo:</label>
+        <textarea name="motivo" id="motivo" cols="50" rows="10"></textarea>
+        <br>
+            <!-- Interactividad: Botones <input type="submit"> para enviar -->
+        <br>
+        <input type="submit" value="Enviar Pa">
+    </form>
+
+
+    <!-- Destino: Atributo action en <form> indica la URL para procesar datos -->
+
+    <!-- Etiqueta input -->
+
+
+
+    <!-- Etiqueta select y option -->
+
+    <!-- Boton submit -->
+
+    <!-- Metodo GET
+    Los datos del form se adjuntan a la url como parametros, es visible en la barra de direcciones del navegador, tine limitaciones en la cantidad de datos y 
+    es menos seguro para informacion sensible ya que los datos son visibles en la URL.
+    ---El metodo GET se utiliza para solicitudes de busqueda o donde la info no es sensible
+
+    Metodo POST
+    Los datos del formulario se envian en el cuerpo de la solicitud HTTP, no en la URL. No es visible en la barra de direcciones. Puede manejar
+    cantidades mas grandes de datos, Es mas seguro para la informacion ya que los datos no son visibles en la url 
+    ---El metodo POST se usa para enviar info sensible o mucha informacion -->
+
+</body>
+</html>
+

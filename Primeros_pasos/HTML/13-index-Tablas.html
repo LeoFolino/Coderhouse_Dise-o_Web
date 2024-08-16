@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  <!-- forma parte de lo que se ve y configura en el navegador -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tablas</title>
+
+
+    <style>
+        table{
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: aqua;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <h1>Tablas en HTML</h1>
+
+    <table> <!-- Etiqueta de tabla -->
+        <colgroup>
+            <col span="1" style="background-color: blue;">  <!-- Definir la columa 1 para que tenga un color designado -->
+        </colgroup>
+        <tr>    <!-- Etiqueta de fila (row) -->
+            <th>AntiTFT</th>    <!-- Etiqueta de table header (encabezado de tabla) -->
+            <th colspan="2">Nombre y Apellido</th> <!-- colspan nos ayuda a extender horizontalmente el dominio de la columna -->
+            <th>Notas</th>
+        </tr>
+        <tr>
+            <td>1</td>  <!-- Etiqueta de tabla data (Informacion de tabla) -->
+            <td>Ignacio</td>
+            <td>Fernandez</td>
+            <th>9</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ivan</td>
+            <td>Askaris</td>
+            <th>5
+            </th>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Luchito</td>
+            <td rowspan="2">Lasarte</td>    <!-- rowspan ayuda a extender verticalmente el dominio -->
+            <th>2</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Braian</td>
+            <th>6</th>                      <!-- Se elimino el apellido de Braian ya que hace conflicto con rowspan en linea 56 -->
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
