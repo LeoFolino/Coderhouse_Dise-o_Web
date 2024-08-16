@@ -10,7 +10,7 @@
     <h1>Formularios</h1>
         <!-- <form> encierra los elementos -->
     <!-- <input> <select> <texarea> para recopilar datos -->
-    <form method="post">
+    <form method="post">        <!-- Envio: Atributo method GET o POST define como se envian los datos al server -->
         <!-- INPUT TYPE TEXT -->
          <h4>DATOS PERSONALES</h4>
          <br>
@@ -40,17 +40,21 @@
         <label for="react">React</label>
         <input type="checkbox" name="tecnologias" id="react" value="4">
         <br>
+            <!-- TEXTAREA -->
+        <label for="motivo">Motivo:</label>
+        <textarea name="motivo" id="motivo" cols="50" rows="10"></textarea>
+        <br>
+            <!-- Interactividad: Botones <input type="submit"> para enviar -->
+        <br>
         <input type="submit" value="Enviar Pa">
     </form>
 
 
-    <!-- Envio: Atributo method GET o POST define como se envian los datos al server -->
     <!-- Destino: Atributo action en <form> indica la URL para procesar datos -->
-    <!-- Interactividad: Botones <input type="submit"> para enviar -->
 
     <!-- Etiqueta input -->
 
-    <!-- Etiqueta textarea -->
+
 
     <!-- Etiqueta select y option -->
 
