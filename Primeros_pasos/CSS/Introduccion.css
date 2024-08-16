@@ -1,0 +1,6 @@
+/* LA SINTAXIS DEL CSS:
+
+En el head del HTML, se crea el link al archivo CSS correspondiente:
+<link rel="stylesheet" href="style.css"> siendo href el .css correspondiente al que queremos linkear a la pagina
+
+Para esta seccion, se van a crear carpetas y archivos correspondientes a cada practica.

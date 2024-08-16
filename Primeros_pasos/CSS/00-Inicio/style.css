@@ -1,0 +1,17 @@
+#titulo-principal {             /* ID aplica a todas las etiquetas HTML que vienen acompañadas de id="titulo-principal" */
+    background-color: aqua;
+}
+
+.rojo {                     /* .rojo aplica a todas las clases HTML que vienen acompañadas de "class="rojo" */
+    color: red;
+}
+
+p.rojo{                     /* Aplica a todas las etiquetas HTML que son parrafos <p> y pertenezcan a la class="rojo" */
+    text-align: center;
+}
+
+/* con coma se pueden sumar a un grupo para darle estilo*/
+
+h3,h1{
+    background-color: blue;
+}
