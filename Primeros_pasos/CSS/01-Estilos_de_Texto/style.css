@@ -1,23 +1,18 @@
-div{
-    width: 500px;
-    height: auto;
-    border: 2px solid black;
-    padding: 20px;
-    margin: 20px;
+ul.desordenada{
+    list-style-type:georgian;
 }
 
-
-p{
-    text-indent: 50px;
-    letter-spacing: 2px;
-    line-height: 1.5;
+ol.ordenada{
+    list-style-image: url(/Primeros_pasos/HTML/favicon/icons8-brujo-2-ios-17-filled-32.png)
 
 }
 
+ul{
+    background: red;
+}
 
-.grey-qo-regular {
-    font-family: "Grey Qo", cursive;
-    font-weight: 8000px;
-    font-style: normal;
-  }
-  
+ol{
+    background: green;
+    padding: 10px;
+    margin:10px
+}
