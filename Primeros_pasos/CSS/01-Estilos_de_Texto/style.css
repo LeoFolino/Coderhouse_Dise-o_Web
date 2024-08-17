@@ -3,10 +3,27 @@ table, th, td{
     text-align: center;
 }
 
+th,td{
+    text-align: center;
+    padding: 15px;
+}
+
+tr:hover{
+    background-color: aqua;
+}
+
+tr:nth-child(even) {
+    background-color: blue;
+}
+
 table{
     border-collapse: collapse;
     width: 80%;
     margin: 10px;
+}
+
+th{
+    background-color: blueviolet;
 }
 
 th{
