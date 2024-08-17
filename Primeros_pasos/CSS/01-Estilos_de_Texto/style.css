@@ -12,6 +12,28 @@ p{
     letter-spacing: 2px;
     line-height: 1.5;
 
-    text-shadow: 1px 2px 2px grey ;
 }
 
+h4{
+    font-size: 50px;
+}
+
+.serif{
+    font-family: serif;
+}
+
+.sans-serif{
+    font-family: sans-serif;
+}
+
+.monospace{
+    font-family: monospace;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
