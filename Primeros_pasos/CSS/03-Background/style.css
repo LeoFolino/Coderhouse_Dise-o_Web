@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(185, 51, 51);
+    /* opacity: 0.7; */
+    background-image: url(/Primeros_pasos/HTML/img/thewitcher.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed; /* FIXED sigue el fondo al scroll, scroll al scrollear baja usando toda la imagen*/
+}
