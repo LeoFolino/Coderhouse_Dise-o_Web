@@ -5,22 +5,119 @@ div, span{
 
 .cajita1{
     width: 200px;
-    height: 150px;
-    background-color: aqua;
-    margin: 5px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-left: 20px;
+    height: 50px;
+    border: 2px solid green; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px solid black;
+    outline-offset: 15px;
 }
 
-.cajita2{
-    color: white;
-    width: 300px;
-    height: 150px;
-    background-color: blue;
-    margin: 5px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 20px;
+.dotted{
+    width: 200px;
+    height: 50px;
+    border-style: dotted; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px dotted black;
+    outline-offset: 15px;
 }
 
+.dashed{
+    width: 200px;
+    height: 50px;
+    border-style: dashed; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px dashed black;
+    outline-offset: 15px;
+}
+
+.double{
+    width: 200px;
+    height: 50px;
+    border-style: double; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px double black;
+    outline-offset: 15px;
+}
+
+.groove{
+    width: 200px;
+    height: 50px;
+    border-style: groove; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px groove black;
+    outline-offset: 15px;
+
+}
+
+.ridge{
+    width: 200px;
+    height: 50px;
+    border-style: ridge; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px ridge black;
+    outline-offset: 15px;
+}
+
+.inset{
+    width: 200px;
+    height: 50px;
+    border-style: inset; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px inset black;
+    outline-offset: 15px;
+}
+
+.outset{
+    width: 200px;
+    height: 50px;
+    border-style: outset; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px outset black;
+    outline-offset: 15px;
+}
+
+.none{
+    width: 200px;
+    height: 50px;
+    border-style: none; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px none black;
+    outline-offset: 15px;
+}
+
+.hidden{
+    width: 200px;
+    height: 50px;
+    border-style: hidden; /* dotted, dash, double, entre otros estilos*/
+    padding: 10px;
+    margin: 10px;
+    outline: 2px hidden black;
+    outline-offset: 15px;
+}
+
+.mix{
+    width: 200px;
+    height: 50px;
+    border-style: dotted dashed solid double; /* dotted, dash, double, entre otros estilos*/
+}
+
+p{
+    text-align: center;
+}
+.contenedor2{
+    width: 100px;
+    height: 100px;
+}
+.contenedor3{
+    width: 100px;
+    height: 100px;
+}
