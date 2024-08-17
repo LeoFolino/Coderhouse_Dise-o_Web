@@ -1,84 +1,19 @@
-div{
-    border-width: 8px;
-    border-color: aqua;
-    border: 5px solid blue;
-    border-radius: 10px;
+div, span{
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
-.solid{
+.cajita1{
     width: 200px;
-    height: 50px;
-    border-style: solid; /* dotted, dash, double, entre otros estilos*/
+    height: 150px;
+    background-color: aqua;
+    margin: 100px 0 100px 100px;
 }
 
-.dotted{
-    width: 200px;
-    height: 50px;
-    border-style: dotted; /* dotted, dash, double, entre otros estilos*/
+.cajita2{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    margin: 0;
 }
 
-.dashed{
-    width: 200px;
-    height: 50px;
-    border-style: dashed; /* dotted, dash, double, entre otros estilos*/
-}
-
-.double{
-    width: 200px;
-    height: 50px;
-    border-style: double; /* dotted, dash, double, entre otros estilos*/
-}
-
-.groove{
-    width: 200px;
-    height: 50px;
-    border-style: groove; /* dotted, dash, double, entre otros estilos*/
-}
-
-.ridge{
-    width: 200px;
-    height: 50px;
-    border-style: ridge; /* dotted, dash, double, entre otros estilos*/
-}
-
-.inset{
-    width: 200px;
-    height: 50px;
-    border-style: inset; /* dotted, dash, double, entre otros estilos*/
-}
-
-.outset{
-    width: 200px;
-    height: 50px;
-    border-style: outset; /* dotted, dash, double, entre otros estilos*/
-}
-
-.none{
-    width: 200px;
-    height: 50px;
-    border-style: none; /* dotted, dash, double, entre otros estilos*/
-}
-
-.hidden{
-    width: 200px;
-    height: 50px;
-    border-style: hidden; /* dotted, dash, double, entre otros estilos*/
-}
-
-.mix{
-    width: 200px;
-    height: 50px;
-    border-style: dotted dashed solid double; /* dotted, dash, double, entre otros estilos*/
-}
-
-p{
-    text-align: center;
-}
-.contenedor2{
-    width: 100px;
-    height: 100px;
-}
-.contenedor3{
-    width: 100px;
-    height: 100px;
-}
