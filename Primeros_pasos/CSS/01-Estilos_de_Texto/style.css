@@ -37,3 +37,9 @@ h4{
 .fantasy{
     font-family: fantasy;
 }
+
+.style{
+    font-style: oblique;
+    font-size: 80%;
+    font-weight: 15px;
+}
