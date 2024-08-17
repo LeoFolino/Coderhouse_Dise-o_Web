@@ -1,12 +1,4 @@
-.max{
-    margin: auto;
-    border: 2px solid black;
-    background-color: azure;
-    max-width: 500px;
+.hidden{
+    display: none; /* Display none oculta o saca el elemento de la web. El hidden lo oculta pero sigue ocupando espacio en la web*/
 }
-.width{
-    margin: auto;
-    border: 2px solid black;
-    background-color: azure;
-    width: 500px;
-}
+
