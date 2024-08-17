@@ -1,0 +1,22 @@
+/* COLORES */
+
+h1{
+    color: aqua;
+    background-color: blue;
+}
+
+/* RGB */
+
+h4{
+    color: rgb(60, 200, 40);
+    background-color: rgb(40, 80, 220, .9); /* ALFA .09 (transparencia)*/
+}
+
+h4{
+    color: #F0000000;
+    background-color: #FFFFFF; /* CODIGO HEXAGESIMAL */
+}
+
+h4{
+    color: hsl(12, 60%, 43%); /* Colores HLS */
+}
