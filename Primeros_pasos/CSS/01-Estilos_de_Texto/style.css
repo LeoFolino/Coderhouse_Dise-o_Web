@@ -1,36 +1,19 @@
-div{
-    width: 100px;
-    height: 30px;
-    border: 2px solid black;
-    padding: 20px;
-    margin: 20px;
-}
-
-.overline{
-    text-decoration: overline;
-}
-
-.line-through{
-    text-decoration: line-through;
-}
-
-.underline{
-    text-decoration: underline;
-}
-
-/*div{
-    width: 500px;
-    height: 200px;
-    border: 20px solid black;
-}*/
-
-/*div{
-    background-color: aqua;
-    width: 50%;
-    height: 50px;
-}*/
-
-h2{
-    color: rgb(11, 240, 49);
+table, th, td{
+    border: 1px solid black;
     text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px;
+}
+
+th{
+    height: 50px;
+}
+
+td{
+    height: 40px;
+    vertical-align: bottom;
 }
