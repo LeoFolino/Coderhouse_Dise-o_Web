@@ -14,32 +14,10 @@ p{
 
 }
 
-h4{
-    font-size: 50px;
-}
 
-.serif{
-    font-family: serif;
-}
-
-.sans-serif{
-    font-family: sans-serif;
-}
-
-.monospace{
-    font-family: monospace;
-}
-
-.cursive{
-    font-family: cursive;
-}
-
-.fantasy{
-    font-family: fantasy;
-}
-
-.style{
-    font-style: oblique;
-    font-size: 80%;
-    font-weight: 15px;
-}
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 8000px;
+    font-style: normal;
+  }
+  
