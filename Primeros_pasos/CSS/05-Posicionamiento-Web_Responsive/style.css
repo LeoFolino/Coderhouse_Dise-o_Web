@@ -1,17 +1,14 @@
-.nav{
-    background-color: aqua;
-    list-style-type: none;
-    text-align: end;
-    margin: 0;
-    padding: 0;
+.center{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    margin: auto; /* FUNDAMENTAL AUTO */
+    text-align: center;
 }
 
-.nav li{
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px;
-}
 
-a{
-    text-decoration: none;
+img{
+    display: block;
+    margin: 50px auto;
 }
