@@ -4,11 +4,7 @@ selector::pseudoelemento{
     propiedad:valor
 } */
 
-p::first-line{
-    background-color: aquamarine;
-}
-
-p::first-letter{
+p.primer-parrafo::first-letter{
     color: red;
-    font-size: 50px;
+    font-size: 100px;
 }
