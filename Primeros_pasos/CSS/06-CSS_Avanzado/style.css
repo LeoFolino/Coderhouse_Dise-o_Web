@@ -1,13 +1,14 @@
 /* SINTAXIS:
 
-selector:pseudoclase{
+selector::pseudoelemento{
     propiedad:valor
 } */
 
-p:first-child{
-    background-color: violet;
+p::first-line{
+    background-color: aquamarine;
 }
 
-b:first-child{
+p::first-letter{
     color: red;
+    font-size: 50px;
 }
