@@ -1,4 +1,37 @@
-.hidden{
-    display: none; /* Display none oculta o saca el elemento de la web. El hidden lo oculta pero sigue ocupando espacio en la web*/
+p{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+
 }
 
+div{
+    border: 1px solid black ;
+    padding: 20px;
+    margin: 20px;
+    max-width: 80%;
+}
+
+#position{
+    position: relative; /* relative desde la posicion original, habilita a usar top, left, right, high, para mover el parrafo */
+    color: red;
+}
+
+#position2{
+    position: fixed; /* lo tenes anclado al scroll amigo, habilita tambien top, left, right, high. y fuera del div*/
+    top: 100px;
+    color: orange;
+}
+
+#position3{
+    position: absolute; /* Similar a fixed, pero no anclado segun scroll */
+    top: 100px;
+    color: blue;
+}
+
+#position4{
+    position: sticky; /* sticky se pega en los px que se determina*/
+    top: 0px;
+    color: blueviolet;
+    background-color: black;
+}
