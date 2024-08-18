@@ -1,3 +1,21 @@
-div~p{ /* Todos los hijos del div comparten esta caracteristica */
-    background-color: aqua;
+/* SINTAXIS:
+
+selector:pseudoclase{
+    propiedad:valor
+} */
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    background-color: brown;
+}
+
+a:active{
+    color: blue;
 }
