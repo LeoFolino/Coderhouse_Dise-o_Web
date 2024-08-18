@@ -1,0 +1,3 @@
+div p{ /* Todos los hijos del div comparten esta caracteristica */
+    background-color: aqua;
+}
