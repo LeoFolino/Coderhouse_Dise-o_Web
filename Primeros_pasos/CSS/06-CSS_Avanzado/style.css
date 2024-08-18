@@ -19,3 +19,16 @@ a:hover{
 a:active{
     color: blue;
 }
+
+a.especial:hover{
+    background-color: black;
+    color: white;
+}
+
+div:hover{
+    background-color: blue;
+}
+
+button:hover{
+    background-color: aqua;
+}
