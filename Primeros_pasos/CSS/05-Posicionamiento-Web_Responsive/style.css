@@ -1,11 +1,8 @@
-img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-    width: 30%;
-}
-
-h1,h2{
-    color: rgb(0, 0, 0);
+div{
+    border:1px solid black;
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    overflow: scroll;
+    overflow-wrap: break-word;
 }
